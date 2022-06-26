@@ -1,0 +1,78 @@
+
+body{
+	background-image: linear-gradient(to right, #d16ba5, #d26fb1, #d273bd, #d178c9, #ce7ed6, #db7dd1, #e77ccc, #f27cc6, #ff7baa, #ff808d, #ff8c74, #fb9a5f);
+}
+#container{
+	height: auto;
+	width: 540px;
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-content: space-evenly ; 
+	margin: 0 auto;
+    }
+    
+    #generate-sudoku{
+	margin:auto;
+	display:block;;
+    }
+    
+    
+    #solve{
+	margin:auto;
+	display:block;;
+    }
+    
+    #container div{
+	/* background-color: #67D1B2; */
+	background-color: #D0F5FF;
+	height: 60px;
+	width: 60px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 60px; 
+	font-size: 30px; 
+	color: green;
+	
+    }
+    
+    #container div:hover{
+	background-color: lightskyblue;
+	cursor: pointer;
+    }
+    
+    .lsb{
+	border-left: black 2px solid;
+    }
+    
+    .bsb{
+	border-bottom: black 2px solid;
+    }
+    
+    .rsb{
+	border-right: black 2px solid;
+    }
+    
+    .tsb{
+	border-top: black 2px solid;
+    }
+    
+    
+    .ldb{
+	border-left: black 0.6px dashed;
+    }
+    
+    .bdb{
+	border-bottom: black 0.6px dashed;
+    }
+    
+    .rdb{
+	border-right: black 0.6px dashed;
+    }
+    
+    .tdb{
+	border-top: black 0.6px dashed;
+    }
